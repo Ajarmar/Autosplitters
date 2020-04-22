@@ -1,16 +1,12 @@
-I. INSTRUCTIONS
+## INSTRUCTIONS
 
-1. Edit layout in LiveSplit
-2. Add new "Control" -> "Scriptable Auto Splitter"
-3. Select "asg_v4-1.asl" as script
-4. Switch to "Game Time" mode in LiveSplit (in the "Compare Against" submenu when you right click LiveSplit)
-5. To avoid potential issues, restart LiveSplit.
+Remember to switch to the "Game Time" comparison in LiveSplit in order to remove load times.
 
 
 
-II. FEATURES
+## FEATURES
 
-The timer should now:
+When using the autosplitter, the timer should:
 
 - Start automatically after the first loading screen
 - Pause on all loading screens
@@ -21,7 +17,7 @@ Note that the auto splitter only works for speedrun modes.
 
 
 
-III. CHANGES
+## CHANGES
 
 - Version 4.1: Changed refreshRate from 60 to 30 in order to avoid timer running slowly
 
