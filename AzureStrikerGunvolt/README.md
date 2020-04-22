@@ -1,6 +1,6 @@
 ## INSTRUCTIONS
 
-Remember to switch to the "Game Time" comparison in LiveSplit in order to remove load times.
+Remember to switch to the "Game Time" comparison in LiveSplit in order to remove load times. (Right click LiveSplit -> Compare Against -> Game Time)
 
 
 
