@@ -19,11 +19,14 @@ Note that the auto splitter only works for speedrun modes.
 
 ## CHANGES
 
+- Version 5.0: Updates to pointer paths to work with latest game version
+
 - Version 4.1: Changed refreshRate from 60 to 30 in order to avoid timer running slowly
 
 - Versions 2-4: Updates to pointer paths to work with latest game version
 
 - Version 1: Initial version
 
-Version 4.1 - works with Gunvolt version 2018052900
+Version 5.0 - works with Gunvolt version 2020091700
+
 Made by Ajarmar (Twitter: @Ajarmar_). Version 2.0 by Ajarmar and Trogdor (Twitter: @TrogdorSRL). Version 1.0 by Joka (Twitter: @thisIsJoka).
