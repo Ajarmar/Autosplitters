@@ -1,0 +1,6 @@
+When updating, only the base offsets should have to be changed. They will probably be changed by an intuitive amount
+
+Example from 4.1 -> 5.0 update:
+
+* loadingState, gameState, roomIndex, gunvoltHP: Previous base offset + 0xB268
+* igt, bossHP: Previous base offset + 0xB278
