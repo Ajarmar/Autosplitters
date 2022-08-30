@@ -15,9 +15,9 @@ When using the autosplitter, the timer should:
 
 Note that the auto splitter only works for speedrun modes.
 
-
-
 ## CHANGES
+
+- Version 5.2: Added version detection for version 2018052900
 
 - Version 5.1: Added version detection and new pointer paths to make autosplitter work with both game version 2020091700 and 2020062200 (two latest versions)
 
@@ -29,7 +29,7 @@ Note that the auto splitter only works for speedrun modes.
 
 - Version 1: Initial version
 
-Version 5.1 - works with Gunvolt version 2020091700 and 2020062200
+Version 5.2 - works with Gunvolt version 2020091700 (latest version), 2020062200 and 2018052900
 
 ## CREDITS
 

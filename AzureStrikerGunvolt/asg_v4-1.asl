@@ -18,6 +18,16 @@ state("gv_win", "2020062200")
 	int 		bossHP 		: 0x14ED068, 0x18, 0x2D8;
 }
 
+state("gv_win", "2018052900")
+{
+	int		loadingState	: 0xBB89F8, 0x0, 0x0, 0x0, 0x1E4;
+	int		gameState	: 0xBB89F8, 0x0, 0x0, 0x0, 0x0, 0x4AC;
+	float		igt		: 0x14E4CF4;
+	int 		roomIndex	: 0xBD12F0;
+	int		gunvoltHP 	: 0x14D0DEC;
+	int 		bossHP 		: 0x14E6500, 0x18, 0x2D8;
+}
+
 init
 {
     if (modules.First().ModuleMemorySize == 0x15B2000)
@@ -27,6 +37,10 @@ init
     else if (modules.First().ModuleMemorySize == 0x15AE000)
     {
         version = "2020062200";
+    }
+    else if (modules.First().ModuleMemorySize == 0x15A7000)
+    {
+        version = "2018052900";
     }
 	refreshRate = 30;
 	vars.newGame = true;
